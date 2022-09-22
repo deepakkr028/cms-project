@@ -1,0 +1,279 @@
+<style>
+body {
+    background: pink;
+    font-family: verdana;
+
+}
+.navbar-brand img{
+    margin-top: -12px;
+    margin-right: 30px;
+}
+.navbar-brand{
+    color: palevioletred;
+}
+.jumbotron{
+    height :220px;
+    overflow: hidden;
+}
+.jumbotron #detail{
+    position: absolute;
+    color: green;
+}
+.jumbotron #detail span{
+    color : blue;
+}
+.jumbotron img{
+    width=10%;
+    border-bottom-color:aqua;
+}
+.popular{
+    background:whitesmoke;
+    margin-top: 10px;
+    padding: 20px;
+    border-style:solid;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.popular img{
+    width:100%;
+    height: 30%;
+    margin-top:5px;
+    
+}
+
+section.widgets{
+    margin-top: 10%;
+    border radius: 20px;
+    
+}
+.popular.details{
+    margin-left: 0px;
+    margin-bottom: 20;
+}
+.popular.details.p{
+    font-family:monospace;
+    font-size: 20px;
+    border:10px solid blue;
+    margin:50px 0px;
+}
+.post{
+    background:whitesmoke;
+    margin:20px 0px;
+}
+.post .post-date{
+    background-color:whitesmoke;
+    padding:20px 0px 0px 0px;
+    padding-bottom:0px;
+    margin-left:14px;
+    text-align:center;
+}
+.post .post-date .day{
+    font-size:34px;
+    color:blue;
+}
+.post .post-date .month{
+    font-size:20px;
+}
+.post .post-date .year{
+    font-size:33px;
+    font-weight: 100%;
+}
+
+
+.post .post-title{
+    background-color:whitesmoke;
+    padding:5px 20px 25px 20px;
+    border-left:wheat ;
+    text-align:center;
+    margin-left:-14px;
+
+}
+.post .post-title span{
+    color:red;
+    font-weight: 100;
+    margin-left:10px;
+}
+.post .profile-picture{
+    padding:15px;
+}
+.post .profile-picture img{
+    width: 90px;
+    margin-top:-10px;
+
+}
+
+.post > a >img{
+    width=100%;
+
+}
+.post .desc{
+    font-family:ariel;
+    padding:20px;
+    line-height:20px;
+}
+.post >a.btn{
+    margin-left: 20px;
+}
+.post .bottom{
+    color:blue;
+      margin: 20px;
+    padding:20px;
+    border-top:2px solid greenyellow;
+}
+.post .bottom .first{
+    margin-left:20px;
+}
+.post .bottom .second{
+    margin-left:50px;
+}
+.popular ul li{
+    list-style:none;
+}
+nav#pagination{
+    text-align:center;
+    
+}
+ nav#pagination .pagination > li >a{
+    color:purple;
+    padding:15px 25px;
+    font-size:35px;
+}
+
+
+.related-posts{
+    background: whitesmoke;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.related-posts img{
+    width: 100%;
+}
+
+.related-posts h3{
+    color:#24A7CF;
+}
+
+.author{
+    background:whitesmoke;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.author img{
+    width: 100%;
+}
+
+.author h4{
+    color:#24A7CF;
+    text-decoration: underline;
+}
+
+.author p{
+    font-weight: 100;
+}
+
+.comment{
+    background: whitesmoke;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.comment h3{
+    color:#24A7CF;
+}
+
+.comment img{
+    width: 80%;
+}
+
+.comment h4{
+    color:#24A7CF;
+}
+
+.comment p{
+    font-weight: 100;
+}
+
+.comment .single-comment{
+    margin-bottom: 10px;
+}
+
+.comment-box{
+    margin-bottom: 15px;
+    background:whitesmoke;
+    padding: 20px;
+}
+
+.comment-box textarea{
+    resize: none;
+}
+
+
+
+
+
+
+footer{
+    color:aqua;
+    background: black;
+    height:50px;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+
+
+@media only screen and  (max-width:990px){
+    .post .profile-picture{
+        text-align: center;
+    }
+   
+    .post .profile-picture img{
+        width:20%;
+    }
+}
+
+
+@media only screen and  (max-width:600px){
+
+    .navbar-brand img{
+        margin-top: -10px;
+        margin-left:0px;
+
+    }
+    .post .profile-picture img{
+        width:20%;
+    }
+
+    
+    .jumbotron #detail{
+        margin-top:20px;
+    }
+    .post .post-title{
+        text-align:center;
+    }
+    .post .profile-picture{
+        text-align: center;
+    }
+    .post .profile-picture img{
+        width:20%;
+    }
+
+    nav#pagination .pagination > li >a{
+        font-size: 14px;
+        padding:10px;
+    }
+    
+footer{
+    font-size:9px;
+    letter-spacing: 0px;
+}
+
+
+
+}
+
+
+
+
+</style>
